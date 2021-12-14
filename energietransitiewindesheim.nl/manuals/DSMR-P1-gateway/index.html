@@ -18,6 +18,10 @@
             width: 100%;
             min-height: 100%
         }
+		ul{
+		  margin-left:5px;
+		  padding-left:10px;
+		}
 
         h1 {
             font-size: 22px;
@@ -78,6 +82,14 @@
             max-width: 100%;
             max-height: 100%
         }
+
+        .image-rotate180 {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
     </style>
     <style>
         /* Add any custom styles here */
@@ -88,43 +100,48 @@
 
     <div class="container">
 
-        <div class="video-block">
-            <h1>Volg deze video</h1>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQCIV36GYKY" 
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
         <div class="text-block">
-            <h1>Of volg deze aanwijzingen:</h1>
+            <h1>Volg deze aanwijzingen:</h1>
+			<p>
+				<i>Scrol naar beneden voor meer!</i>
+			</p> 
+			<br>
+			<p>
+				<i>Druk niet direct op de groene knop onderaan dit scherm, maar zorg dat u eerst de slimmemetermodule hebt aangesloten en geplaatst.</i>
+			<p>
+			<div class="image-block" >
+				<img src="images/p1-gateway-and-accessories.jpg" />
+			</div>
+			<p>
+				U hebt zonet de QR-code van een Twomes slimmemetermodule gescand. Hierboven ziet u een foto van de slimmemetermodule. U hebt ook een mogelijk ook een splitter (linksonder) en een USB-voeding (rechstonder) meegeleverd gekregen.
+			</p>
+			<p>
+				We helpen u met aanwijzingen hoe u het apparaatje installeert bij uw slimme meter. Mocht u na het lezen van deze aanwijzingen nog vragen hebben, kijk dan eerst even bij de <a href="../../assendorp2021/FAQ/index.html">meest gestelde vragen</a>. Daar ziet u ook hoe u hulp kunt krijgen mocht u er toch niet uitkomen.
+			</p>
 
-            <h2>1. Verbinden met uw slimme meter</h2>
-            <p> Gebruik de bijgeleverde kabel om de Twomes P1-Gateway te verbinden met de P1-poort op uw slimme
-                meter.<br>
-                <img src="images/Rj45Gateway.jpeg" height="300" />
-                <br>Deze poort is meestal te vinden op de voorkant of onderzijde van uw slimme meter.<br>
-
-                <img src="images/P1MeterEnexis.png" /><br>
-
-                <i>De locatie van de P1-Poort op de Enexis ESMR5 Slimme Meter</i>
+            <h2>1. Sluit de USB-voeding aan</h2>
+			<p>
+				<b>Als</b> u in uw installatiepakket een USB-voeding met kabel hebt ontvangen, dan is deze nodig. Steek dan de micro-USB stekker in de zijkant van de slimmemetermodule (past maar op één manier), steek de USB-stekker in de voedingsadapter en steek tenslotte de voedingsadapter in een vrij stopcontact in de buurt van uw slimme meter.
+			</p>
+            <h2>2. Sluit de P1-kabel aan</h2>
+				Steek de losse stekker van de slimmemetermodule in de P1-poort van uw slimme meter. U moet een duidelijke klik voelen; dan maakt de stekker goed contact.<br>
+				<div class="image-block" >
+					<img src="images/P1MeterEnexis.png" />
+				</div>
+                <i>De P1-poort zit bij veel slimme meters aan de voor- of onderkant. Soms zit er een klepje voor dat u makkelijk kunt loshalen.</i>
+			</p>
+			<br>
+			<p>
+				<b>Als</b> uw P1-poort al bezet is, gebruik dan de meegeleverde splitter: verwijder eerst de stekker die de P1-poort bezet houdt, steek daarna de losse stekker van de splitter in de P1-poort en steek tenslotte de twee losse stekkers in de 2 vrije poorten van de splitter.
+			</p>
+			<br>
+			<p>
+				Plaats de slimmemetermodule niet pal naast uw Wi-Fi router, anders wordt de communicatie met de andere modules straks niet misschien gestoord.
             </p>
-
-            <h3><br>Als u een DSMR versie 4.x slimme meter heeft:</h3>
-            <p> Doe dan ook de USB stekker in de zijkant van de Twomes P1 Gateway, en steek de stekker in het
-                stopcontact
-                <br><img src="images/USBlocation.jpeg" height="300" />
-                <br>Als de P1 Gateway goed aangesloten is knippert er een groen lampje<br> de P1-Gateway is nu klaar om
-                te verbinden met de app
-            </p>
-
-            <h2>De Wi-Fi gegevens resetten</h2>
-            <p>Als het Wi-Fi wachtwoord verandert, of als het verkeerde wachtwoord is ingevoerd kan het Wi-Fi wachtwoord
-                gereset worden door de knop "P2" 10 seconden lang ingedrukt te houden<br>
-                <img src="images/ResetButtonLocation.png" height="300" />
-            </p>
-
+			<br>
+            <p>
+				<i>U hebt de slimmemetermodule aangesloten. Ga nu verder in de app met de knop "Ok, heb ik gedaan", hieronder, om de installatie af van de slimmemetermodule af te ronden.</i>
+			</p>
         </div>
 
 
